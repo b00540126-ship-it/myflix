@@ -1,0 +1,75 @@
+.movie-details {
+  background: #141414;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.back-link {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0,0,0,0.6);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.details-backdrop {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center top;
+  background-color: #222;
+}
+
+.details-backdrop-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, #141414, rgba(20,20,20,0.3));
+}
+
+.details-content {
+  padding: 16px;
+  margin-top: -40px;
+  position: relative;
+}
+
+.details-content h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.details-meta {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.details-overview {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.trailer-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.trailer-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

@@ -1,0 +1,27 @@
+.infinite-grid-section {
+  margin: 28px 0;
+  padding: 0 16px;
+}
+
+.infinite-grid-section h2 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  letter-spacing: 0.3px;
+}
+
+.infinite-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.infinite-grid .movie-card {
+  width: 100%;
+}
+
+.infinite-loader {
+  padding: 20px 0;
+  text-align: center;
+}

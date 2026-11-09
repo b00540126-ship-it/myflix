@@ -1,0 +1,21 @@
+.search-results {
+  padding: 16px;
+  background: #141414;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.search-results h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.search-results-grid .movie-card {
+  width: 100%;
+}
